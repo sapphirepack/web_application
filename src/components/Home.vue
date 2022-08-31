@@ -6,7 +6,7 @@
     </p>
 
     <p>
-      For each one you have to redefine, share, copy, import to resume your
+      For each one you have to redefine, share, copy or import to resume your
       story.
     </p>
 
@@ -15,12 +15,23 @@
 </template>
 
 <style scoped>
+p {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  max-width: 714px;
+  margin: auto;
+  padding-bottom: 4.5rem;
+}
+
+@media (min-width: 600px) {
   p {
-    font-size:5rem;
+    font-size: 5rem;
     line-height: 6rem;
     max-width: 1028px;
-    margin:auto;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 9rem;
   }
-
+}
 </style>

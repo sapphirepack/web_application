@@ -9,7 +9,4 @@ import Header from './components/Header.vue'
 </template>
 
 <style scoped>
-  .router {
-    margin-top: 133px;
-  }
 </style>
